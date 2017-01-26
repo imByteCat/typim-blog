@@ -1,0 +1,44 @@
+<?php require_once('header.html') ?>
+
+		<!-- 空一列 -->
+		<div class="col-xs-1 col-sm-1"></div>
+
+		<div class="col-xs-10 col-sm-10">
+
+			<h1 class="post-title" ><?= $item['title'][$key] ?></h1>
+
+			<div  class="post-info" >
+
+				<span class="post-info-date" >
+
+					<i class="fa fa-calendar"></i>
+					<span><?= $item['date'][$key] ?></span>
+
+				</span>
+
+				<span class="post-info-tags" >
+
+					<i class="fa fa-tags"></i>
+					<span><?= $item['tags'][$key] ?></span>
+
+				</span>
+
+			</div>
+
+			<div class="post-content" >
+
+				<?= $markdown->text($post_content) ?>
+
+
+			</div>
+
+		</div>
+
+		<!-- 空一列 -->
+		<div class="col-xs-1 col-sm-1"></div>
+
+		<div class="col-xs-12 col-sm-12">
+<?= show_comment() ?>
+		</div>
+
+<?php require_once('footer.html') ?>

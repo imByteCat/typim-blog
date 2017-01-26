@@ -1,0 +1,63 @@
+ul li{display:inline; padding:5px;}
+
+.temp {
+	text-align: center;
+}
+
+.blog-title {
+	font-family: 'Noto Serif', 'Hiragino Sans GB', 'Microsoft Yahei', serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.blog-subtitle {
+	font-family: 'Noto Serif', 'Hiragino Sans GB', 'Microsoft Yahei', serif;
+	font-style:italic;
+}
+
+.blog-navbar {
+	font-family: 'Noto Serif', 'Hiragino Sans GB', 'Microsoft Yahei', serif;
+	float: right;
+}
+
+.pic-md {
+	display:block;margin-left:auto;margin-right:auto;
+}
+
+.post-title {
+	margin: 1em 0 2.5em 0;
+	padding: 0.7em 0;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.post-info {
+    color: #a6a6a6;
+    line-height: 1.5;
+    font-size: 0.75em;
+    margin: 2em 0;
+}
+
+.post-info-date {
+	font-family: droid-sans, stheiti, 'microsoft yahei', sans-serif;
+	margin: 0 1.5em 0 0;
+}
+
+.post-info-tags {
+	font-family: droid-sans, stheiti, 'microsoft yahei', sans-serif;
+	margin: 0 0.5em 0 0;
+}
+
+.post-content {
+line-height: 1.6;
+font-family: 'Noto Serif', 'Hiragino Sans GB', 'Microsoft Yahei', serif;
+font-size: 1em;
+color: #333;
+background: #fff;
+overflow-x: hidden;
+}
+
+
