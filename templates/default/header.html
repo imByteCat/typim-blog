@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="<?= $template_root ?>css/bootstrap.min.css" rel="stylesheet">
 		<link href="<?= $template_root ?>css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?= $template_root ?>css/style.css" rel="stylesheet">
 		<link href="<?= $template_root ?>css/default.css" rel="stylesheet">
 		<script src="<?= $template_root ?>js/jquery.min.js"></script>
 		<script src="<?= $template_root ?>js/bootstrap.min.js"></script>
@@ -17,7 +18,7 @@
 
 	<body>
 
-		<div class="jumbotron">
+		<!-- div class="jumbotron">
 
 			<div class="container">
 
@@ -36,4 +37,15 @@
 				</div>
 			</div>
 
+		</div -->
+
+		<div class="main">
+			<header class="main-header">
+				<div class="center div-avatar"><img class="avatar" src="<?= $settings['avatar'] ?>" /></div>
+				<h1 class="title">
+					<?= $settings['title'] ?>
+				</h1>
+				<p class="description"><?= $settings['subtitle'] ?></p>
+				<a class="nav" href="<?= $settings['base_url'] ?>">Home</a>
+			</header>
 		</div>
