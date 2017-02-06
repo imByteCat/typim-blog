@@ -25,7 +25,7 @@ a{
 /* Header */
 .main-header{
     display: table;
-    background-image: url(bgimg.jpg);
+    background-image: url(../images/bg.jpg);
     padding: 2rem 0;
     width: 100%;
 }

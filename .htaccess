@@ -1,5 +1,5 @@
 <IFMODULE mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule ^(.*).html$ view.php?name=$1 [L]
+RewriteRule ^post/(.*)$ view.php?name=$1 [L]
 </IFMODULE>

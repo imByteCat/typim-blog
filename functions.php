@@ -48,7 +48,7 @@ function show_comment() {
 	if(isset($settings['duoshuo'])) {
 		echo <<< COMMENT
 		<!-- 多说评论框 -->
-		<div class="ds-thread" data-thread-key="" data-title="{$item['title'][$key]}" data-url="{$settings['base_url']}{$post_file_name}.html"></div>
+		<div class="ds-thread" data-thread-key="" data-title="{$item['title'][$key]}" data-url="{$settings['base_url']}post/{$post_file_name}"></div>
 		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 		<script type="text/javascript">
 		var duoshuoQuery = {short_name:"{$settings['duoshuo']}"};
